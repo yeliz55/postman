@@ -176,9 +176,33 @@
 			"response": []
 		}
 	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "57e26529-c798-40e7-a726-86ed92b90ce0",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "2645425f-288f-4783-8501-42aad20d2ead",
+				"type": "text/javascript",
+				"exec": [
+					"pm.test(\"Response time is less than 300ms\", function () {",
+					"    pm.expect(pm.response.responseTime).to.be.below(300);",
+					"});"
+				]
+			}
+		}
+	],
 	"variable": [
 		{
-			"id": "366b34a8-80c2-41a6-9c68-4ea9504bd36b",
+			"id": "6ab28dfa-5b6a-4bfe-800d-feb9f1a8159d",
 			"key": "url",
 			"value": "https://d74f3fe5-9ed6-49b5-b345-a17fef5525d2.mock.pstmn.io"
 		}
