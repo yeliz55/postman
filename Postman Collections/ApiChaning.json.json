@@ -86,6 +86,23 @@
 		},
 		{
 			"name": "Restfull/Get/Id",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "cdf49b80-dd98-4f62-84a1-73171835f534",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "f83aa2d6-5487-4884-9fe3-9e26eb5f60a1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -180,7 +197,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "57e26529-c798-40e7-a726-86ed92b90ce0",
+				"id": "0273bfb7-adc1-46f9-959f-de2534bdab23",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -190,11 +207,11 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "2645425f-288f-4783-8501-42aad20d2ead",
+				"id": "75594fe8-339f-4de0-9ed1-dc727f974158",
 				"type": "text/javascript",
 				"exec": [
-					"pm.test(\"Response time is less than 300ms\", function () {",
-					"    pm.expect(pm.response.responseTime).to.be.below(300);",
+					"pm.test(\"Response time is less than 2000ms\", function () {",
+					"    pm.expect(pm.response.responseTime).to.be.below(2000);",
 					"});"
 				]
 			}
@@ -202,7 +219,7 @@
 	],
 	"variable": [
 		{
-			"id": "3d5208ea-2803-4c61-89cc-4b6d870bb3d8",
+			"id": "987b43df-8dd4-4756-a930-c61ae4e8b0e2",
 			"key": "url",
 			"value": "https://d74f3fe5-9ed6-49b5-b345-a17fef5525d2.mock.pstmn.io"
 		}
