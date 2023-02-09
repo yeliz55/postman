@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "Restfull/Token",
-			"_postman_id": "cb00aca6-8f93-4ed6-a427-b87740ae678a",
+			"id": "cb00aca6-8f93-4ed6-a427-b87740ae678a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -29,7 +29,7 @@
 		},
 		{
 			"name": "Restfull/Get",
-			"_postman_id": "5d9cc0a8-b2b3-46ee-ba6c-8037b7ddc882",
+			"id": "5d9cc0a8-b2b3-46ee-ba6c-8037b7ddc882",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -64,7 +64,7 @@
 					}
 				}
 			],
-			"_postman_id": "597fd13d-bb41-4da4-a4e8-e311cc0c3729",
+			"id": "597fd13d-bb41-4da4-a4e8-e311cc0c3729",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -73,7 +73,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"firstname\" : \"ylz1\",\r\n    \"lastname\" : \"erd\",\r\n    \"totalprice\" : 111,\r\n    \"depositpaid\" : true,\r\n    \"bookingdates\" : {\r\n        \"checkin\" : \"2023-01-25\",\r\n        \"checkout\" : \"2023-01-27\"\r\n    },\r\n    \"additionalneeds\" : \"Breakfast\"\r\n}",
+					"raw": "{\r\n    \"firstname\" : \"yeliz\",\r\n    \"lastname\" : \"erd\",\r\n    \"totalprice\" : 111,\r\n    \"depositpaid\" : true,\r\n    \"bookingdates\" : {\r\n        \"checkin\" : \"2023-01-25\",\r\n        \"checkout\" : \"2023-01-27\"\r\n    },\r\n    \"additionalneeds\" : \"Breakfast\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -86,7 +86,7 @@
 		},
 		{
 			"name": "Restfull/Get/Id",
-			"_postman_id": "f83aa2d6-5487-4884-9fe3-9e26eb5f60a1",
+			"id": "f83aa2d6-5487-4884-9fe3-9e26eb5f60a1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -99,7 +99,7 @@
 		},
 		{
 			"name": "Restfull/Put",
-			"_postman_id": "1aea51bb-4041-48d2-86cc-2e1ff40c65c9",
+			"id": "1aea51bb-4041-48d2-86cc-2e1ff40c65c9",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -128,7 +128,7 @@
 		},
 		{
 			"name": "Restfull/Patch",
-			"_postman_id": "3e39f29f-fe72-40bc-9d4a-9221ec22c4b1",
+			"id": "3e39f29f-fe72-40bc-9d4a-9221ec22c4b1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -157,7 +157,7 @@
 		},
 		{
 			"name": "Restfull/Delete",
-			"_postman_id": "b5a3912c-0b9d-4d4d-8262-2f1608a58339",
+			"id": "b5a3912c-0b9d-4d4d-8262-2f1608a58339",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -178,10 +178,9 @@
 	],
 	"variable": [
 		{
-			"id": "913289c2-7746-4d3a-a84f-7618d333c7b7",
+			"id": "366b34a8-80c2-41a6-9c68-4ea9504bd36b",
 			"key": "url",
-			"value": "https://d74f3fe5-9ed6-49b5-b345-a17fef5525d2.mock.pstmn.io",
-			"type": "string"
+			"value": "https://d74f3fe5-9ed6-49b5-b345-a17fef5525d2.mock.pstmn.io"
 		}
 	]
 }
