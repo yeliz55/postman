@@ -52,7 +52,7 @@
 							"    pm.response.to.have.status(200);\r",
 							"});\r",
 							"pm.test(\"Body Lastname\", function () {\r",
-							"    pm.expect(pm.response.text()).to.include(\"Brown\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"erd\");\r",
 							"});\r",
 							"    const payload=pm.response.json();\r",
 							"pm.environment.set(\"bookingid\", payload.bookingid);\r",
@@ -219,7 +219,7 @@
 	],
 	"variable": [
 		{
-			"id": "7cb3b0c0-0cc9-4efa-be62-3e3857c88d13",
+			"id": "d1392596-e332-4baa-80e7-31a65e7b02f3",
 			"key": "url",
 			"value": "https://d74f3fe5-9ed6-49b5-b345-a17fef5525d2.mock.pstmn.io"
 		}
