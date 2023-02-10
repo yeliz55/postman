@@ -73,7 +73,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"firstname\" : \"yeliz\",\r\n    \"lastname\" : \"erd\",\r\n    \"totalprice\" : 111,\r\n    \"depositpaid\" : true,\r\n    \"bookingdates\" : {\r\n        \"checkin\" : \"2023-01-25\",\r\n        \"checkout\" : \"2023-01-27\"\r\n    },\r\n    \"additionalneeds\" : \"Breakfast\"\r\n}",
+					"raw": "{\r\n    \"firstname\" : \"{{$randomFirstName}}\",\r\n    \"lastname\" : \"{{$randomLastName}}\",\r\n    \"totalprice\" : 111,\r\n    \"depositpaid\" : true,\r\n    \"bookingdates\" : {\r\n        \"checkin\" : \"2023-01-25\",\r\n        \"checkout\" : \"2023-01-27\"\r\n    },\r\n    \"additionalneeds\" : \"Breakfast\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -219,7 +219,7 @@
 	],
 	"variable": [
 		{
-			"id": "d1392596-e332-4baa-80e7-31a65e7b02f3",
+			"id": "88f3bbd3-ab24-452b-9aaf-fa3cdd44a07d",
 			"key": "url",
 			"value": "https://d74f3fe5-9ed6-49b5-b345-a17fef5525d2.mock.pstmn.io"
 		}
